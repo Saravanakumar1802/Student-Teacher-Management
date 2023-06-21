@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: black;
+  color: aliceblue;
+  height: 10vh;
+}
+
+.nav>span {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.nav>span>button {
+  padding: 9px 20px 9px 20px;
+  margin: 0 11px;
+  border-radius: 10px;
+}
+
+.main-btn1 {
+  font-weight: 500;
+  background-color: rgb(0, 89, 255);
+  color: white;
+}
+
+.main-btn2 {
+  font-weight: 500;
+  background-color: pink;
+}
+
+.content {
+  min-height: 80vh;
+  position: relative;
+}
+
+.footer {
+  background-color: black;
+  color: aliceblue;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homePage {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.add-btn {
+  padding: 5px 20px 5px 20px;
+  margin: 10px 0 10px 10px;
+  font-weight: 500;
+}
+
+.edit-btn {
+  padding: 5px 15px 5px 15px;
+  margin: 10px;
+  /* border: none; */
+  border-radius: 10px;
+  background-color: rgb(0, 104, 0);
+  font-weight: 500;
+}
+
+.del-btn {
+  padding: 5px 15px 5px 15px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(190, 0, 0);
+  font-weight: 500;
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.form>input {
+  margin: 10px 0;
+  width: 30rem;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.submit-btn {
+  padding: 9px 20px 9px 20px;
+  border-radius: 8px;
+  margin-top: 18px;
+  background-color: rgb(33, 92, 255);
+  font-weight: 500;
+  color: white;
+}
